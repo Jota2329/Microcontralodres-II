@@ -10,7 +10,7 @@ void setup() {
     pinMode(unidadPins[i], OUTPUT);
   }
 }
-// josep es gey.
+// josep cabro
 void loop() {
   int sensorValue = analogRead(lm35Pin);  
   int temperature = (sensorValue * 0.488);  // Conversión a temperatura entera
