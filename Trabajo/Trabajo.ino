@@ -9,7 +9,7 @@ void setup() {
     pinMode(decenaPins[i], OUTPUT);
     pinMode(unidadPins[i], OUTPUT);
   }
-}
+}// Confirma el cambio XD
 
 void loop() {
   int sensorValue = analogRead(lm35Pin);  
