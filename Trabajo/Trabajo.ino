@@ -35,7 +35,7 @@ void loop() {
   }
 }
 
-// Función para enviar el número en binario al integrado 7447
+// Función para enviar el número en binario al integrado 7449
 void mostrarNumero(int num, const int pins[]) {  //Esta función convertira el número decimal (0–9) a su representación binaria de 4 bits.
   Serial.print("Enviando bits: "); Serial.println(num);
   for (int i = 0; i < 4; i++) {
