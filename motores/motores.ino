@@ -10,6 +10,6 @@ void setup() {
 
 void loop() {
   // Sentido horario (derecha)
-  digitalWrite(pinIN3,LOW );   // IN3 a 0
-  digitalWrite(pinIN4,HIGH );  // IN4 a 1
+  digitalWrite(pinIN3,HIGH );   // IN3 a 0
+  digitalWrite(pinIN4,LOW );  // IN4 a 1
   analogWrite(pinENB, 200);    // Velocidad moderada (0–255)
