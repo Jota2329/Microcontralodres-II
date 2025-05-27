@@ -7,7 +7,7 @@ void setup() {
   pinMode(pinIN4, OUTPUT);
   pinMode(pinENB, OUTPUT);
 }
-
+//hola 
 void loop() {
   // Sentido horario (derecha)
   digitalWrite(pinIN3, HIGH);   // IN3 a 0
